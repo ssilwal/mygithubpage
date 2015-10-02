@@ -34,5 +34,6 @@ footer {
   width:100%;
  }
 .footer img{
-  height: 80%;
+  height: 75%;
+  opacity: 0.3;
 }
