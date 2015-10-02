@@ -1,44 +1,93 @@
-<!-- index.html -->
-    <!DOCTYPE html>
-    <!--define angular app -->
-    <html ng-app="scotchApp">
-    <head>
-      <meta charset="utf-8">
-      <base href="/">
-      <!-- SCROLLS -->
-      <!-- load bootstrap and fontawesome via CDN -->
-      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
-      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+<!DOCTYPE html>
 
-      <!-- SPELLS -->
-      <!-- load angular and angular route via CDN -->
-      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
-      <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
-      <script src="script.js"></script>
-    </head>
-    <!--define angular controller -->
-    <body ng-controller ="mainController">
-        <!-- HEADER AND NAVBAR -->
-        <header>
-            <nav class="navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="/"></a>
-                </div>
+<!-- Used http://startbootstrap.com/template-overviews/the-big-picture/ for template -->
+<html class="full" lang="en">
+<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
 
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><i class="fa fa-asterisk"></i> Home</a></li>
-                    <li><a href="#about"><i class="fa fa-thumbs-o-up"></i> More</a></li>
-                    <li><a href="#contact"><i class="fa fa-paper-plane-o"></i> Contact</a></li>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="personal page">
+    <meta name="author" content="Sneha Silwal">
+
+    <title>Silwal</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--Font Awesome Icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Noto+Serif:400,700' rel='stylesheet' type='text/css'>
+    <!-- Custom CSS -->
+    <link href="css/the-big-picture.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+  <!--          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
                 </ul>
             </div>
-            </nav>
-        </header>
-
-        <!-- MAIN CONTENT AND INJECTED VIEWS -->
-        <div id="main">
-	    <div ng-view></div>
+            <!-- /.navbar-collapse -->
+-->
         </div>
+        <!-- /.container -->
+    </nav>
 
-    </body>
-    </html>
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <h1>Sneha Silwal</h1>
+                <p>
+                  <a class= "icon" href="http://github.com/ssilwal"><i class="fa fa-git fa-2x"></i></a>
+                  <a class= "icon" href="http://twitter.com/snehasilwal"><i class="fa fa-twitter fa-2x"></i></a>
+                  <a class= "icon" href="mailto:ss4547@columbia.edu"><i class="fa fa-paper-plane fa-2x"></i></a>
+                </p>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
