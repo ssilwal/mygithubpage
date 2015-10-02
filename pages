@@ -1,3 +1,18 @@
+<!-- home.html -->
+    <div class="jumbotron text-center">
+        <h1>Home Page</h1>
+
+        <p>{{ message }}</p>
+    </div>
+
+
+<!-- about.html -->
+    <div class="jumbotron text-center">
+        <h1>About Page</h1>
+
+        <p>{{ message }}</p>
+    </div>
+
 <!-- contact.html -->
     <div class="jumbotron text-center">
         <h1>Contact Page</h1>
