@@ -1,0 +1,12 @@
+html {
+ height: 100%;
+}
+body {
+	font-family: 'Crimson Text', sans-serif;
+	color: #cccccc;
+}
+body {
+ min-height:100%;
+ background-image: url("SIL4632.jpg") ;
+ background-size: cover;
+}
